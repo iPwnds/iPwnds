@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @iPwnds
+- 👋 Hi, I’m Florian Braun
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning c#, python, html
-- 💞️ I’m looking to collaborate on a game
+- 💞️ I’m looking to collaborate on projects
 - 📫 How to reach me : florian.braun.2005@gmail.com
 
 <!---
