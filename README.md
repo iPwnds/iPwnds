@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Florian Braun
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning c#, python, html
-- 💞️ I’m looking to collaborate on projects
+- 👀 I’m interested in programming and 3D/2D modeling
+- 🌱 I’m currently learning HTML, CSS, JavaScript, Python
+- 💞️ I’m looking to learn new things and interact with the community
 - 📫 How to reach me : プンズ#7686 on discord
 
 <!---
