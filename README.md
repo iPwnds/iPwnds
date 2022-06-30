@@ -16,15 +16,23 @@ I also like to make **2D or 3D models** and work with **electronics**.
 
 <h1><samp>Projects</samp></h1>
 
-<h1 align="center">
+<p align="center">
 <a href="https://github.com/ipwnds/portfolio-website">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ipwnds&repo=portfolio-website&show_owner=true&theme=onedark&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ipwnds&repo=portfolio-website&show_owner=true&theme=vue-dark&hide_border=true" />
 </a>
 <img width=2% />
 <a href="https://github.com/ipwnds/company-website">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ipwnds&repo=company-website&show_owner=true&theme=onedark&hide_border=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ipwnds&repo=company-website&show_owner=true&theme=vue-dark&hide_border=true" />
 </a>
-</h1>
+</p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ipwnds&layout=compact&theme=dark&hide_border=true&langs_count=10)
+<br>
+
+<h1><samp>Stats</samp></h1>
+
+<p align="center">
+<a>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ipwnds&layout=compact&theme=vue-dark&hide_border=true&langs_count=10" />
+</a>
+</p>
 
