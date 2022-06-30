@@ -1,4 +1,4 @@
-<img src="https://komarev.com/ghpvc/?username=ipwnds" alt="ipwnds" />
+<p align="left"><img src="https://komarev.com/ghpvc/?username=ipwnds" alt="ipwnds" /></p>
 <h3 align="center">👋 Hi there! I'm Florian</h3>
 <p align="center">
   <a href="https://ipwnds.github.io">Website</a> •
