@@ -9,7 +9,7 @@
 
 I'm **Florian Braun** I'm 16 and I love programming.<br>
 I mostly work with **HTML**, **CSS** and **JS**  and love to make **websites**.<br>
-I have also tried other languages in the past like **Python** and **C#**.
+I have also tried other languages in the past like **Python** and **C#**.<br>
 I also like to make **2D or 3D models** and work with **electronics**.
 
 <br>
