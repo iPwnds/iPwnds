@@ -1,4 +1,3 @@
-<p align="left"><img src="https://komarev.com/ghpvc/?username=ipwnds" alt="ipwnds" /></p>
 <h3 align="center"><i>&lt;h1&gt;</i> 👋 Hey there! I'm Florian <i>&lt;/h1&gt;</i></h3>
 <p align="center">
   <a href="https://florianb.tk">Website</a> •
