@@ -1,7 +1,6 @@
 <h3 align="center"><i>&lt;h1&gt;</i> 👋 Hey there! I'm Florian <i>&lt;/h1&gt;</i></h3>
 <p align="center">
-  <a href="https://florianb.tk">Website</a> •
-  <a href="https://twitter.com/Floski11">Twitter</a>
+  <a href="https://florianb.info">Website</a>
 </p>
 
 <h1><samp>About me</samp></h1>
