@@ -1,13 +1,9 @@
-<h3 align="center"><i>&lt;h1&gt;</i> 👋 Hey there! I'm Florian <i>&lt;/h1&gt;</i></h3>
-<p align="center">
-  <a href="https://florianb.info">Website</a>
-</p>
+### Hello there 👋
 
-<h1><samp>About me</samp></h1>
+#### A Computer Science Student by day ☼ and an Entrepreneur by night ☾
 
-I'm **Florian Braun** I'm *17* and I love programming.<br>
-I mostly work on Web Development using **HTML**, **CSS** and **JS**.<br>
-I also use some frameworks like **Vite** and **Vue.js** occasionally.<br>
-I use **Python** for small apps and **C++** for Arduino code.<br>
-I like to make more mechanical things with a **Arduino** or **Raspberry Pi**.<br>
-I sometimes like to make some renders in **Blender** or **Aseprite**.
+Student at [KU Leuven](https://www.kuleuven.be/kuleuven/);<br>
+Founder & CEO at [CORE](https://braunf.net/);<br>
+
+- ⚙️ I use daily: `.py`, `.js`, `.c`, `.java`, `.html`, `.css`
+- 🔞 I am 18 years old, Born on 19/10/2005 in Brussels, Belgium
