@@ -2,7 +2,7 @@
 
 #### A Computer Science Student by day ☀️ and an Entrepreneur by night 🌙
 
-Student at [KU Leuven](https://www.kuleuven.be/kuleuven/)<br>
+Student at [UCLL](https://www.ucll.be/en)<br>
 Founder & CEO at [CORE](https://coreworld.shop/)<br>
 
 Portfolio [Website](https://www.braunf.net/)<br>
