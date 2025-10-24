@@ -3,7 +3,7 @@
 ### A Computer Science Student by day ☀️ and an Entrepreneur by night 🌙
 
 Student at [University College Leuven-Limburg](https://www.ucll.be/en)<br>
-Founder & CEO at [The Align Project](https://github.com/The-Align-Project/Align-App)<br>
+Founder & CEO at [The Align Project](https://github.com/The-Align-Project)<br>
 
 Portfolio [Website](https://www.braunf25.myprotfolio.com/)<br>
 
