@@ -23,7 +23,7 @@
 name:        Florian Braùn
 location:    Howald, LU  ⇄  Leuven, BE
 studies:     Applied CS · AI & Data Engineering · '27
-languages:   [typescript, python, c++, kotlin, rust]
+languages:   [python, typescript, c++, swift, javascript]
 interests:   [interpretability, algo trading, security testing, film photography, vintage watches]
 certs:       [Bloomberg Market Concepts, Yale Financial Markets, CS50]
 ```
@@ -33,10 +33,10 @@ certs:       [Bloomberg Market Concepts, Yale Financial Markets, CS50]
 <!--START_SECTION:bench-->
 | Project | What it is | Lang |
 |:--|:--|:--|
-| [**-CalmCampus**](https://github.com/lumenworksco/-CalmCampus) | Privacy-first wellness companion for university students: on-device stress signals, adapt… | JavaScript |
-| [**-_Nihongo**](https://github.com/lumenworksco/-_Nihongo) | Offline-first Japanese (JLPT N5) learning PWA with FSRS spaced repetition, streaks, mock … | TypeScript |
-| [**-Tokn**](https://github.com/lumenworksco/-Tokn) | Claude.ai session and weekly usage in your macOS menu bar | Swift |
-| [**-Velox**](https://github.com/lumenworksco/-Velox) | Velox (formerly AlphaFlow): terminal-native autonomous equity trading system on Alpaca. 6… | Python |
+| [**CalmCampus**](https://github.com/lumenworksco/-CalmCampus) | Privacy-first wellness companion for university students: on-device stress signals, adapt… | JavaScript |
+| [**Nihongo**](https://github.com/lumenworksco/-_Nihongo) | Offline-first Japanese (JLPT N5) learning PWA with FSRS spaced repetition, streaks, mock … | TypeScript |
+| [**Tokn**](https://github.com/lumenworksco/-Tokn) | Claude.ai session and weekly usage in your macOS menu bar | Swift |
+| [**Velox**](https://github.com/lumenworksco/-Velox) | Velox (formerly AlphaFlow): terminal-native autonomous equity trading system on Alpaca. 6… | Python |
 | [**MarketLens**](https://github.com/mabushi-lab/MarketLens) | — | MATLAB |
 | [**residual-stream-contamination-probing**](https://github.com/mabushi-lab/residual-stream-contamination-probing) | Detecting benchmark contamination by probing a language model's residual stream, with the… | Python |
 <!--END_SECTION:bench-->
@@ -46,11 +46,11 @@ certs:       [Bloomberg Market Concepts, Yale Financial Markets, CS50]
 <!--START_SECTION:shipped-->
 | Repo | Last commit | When |
 |:--|:--|:--|
-| [iPwnds](https://github.com/iPwnds/iPwnds) | Configuration files for customizing and managing my GitHub profile. | just now |
-| [memoize](https://github.com/iPwnds/memoize) | Flashcard app for mastering algorithms and data structures | 10h ago |
-| [Advanced-AI](https://github.com/iPwnds/Advanced-AI) | — | 5mo ago |
-| [FocusTimer](https://github.com/iPwnds/FocusTimer) | A beautiful, minimal Pomodoro timer for the macOS menu bar. Free & open source. | 5mo ago |
-| [FinSight](https://github.com/iPwnds/FinSight) | — | 6mo ago |
+| [CalmWeb](https://github.com/lumenworksco/-_CalmWeb) | [quivr preview: headings in order](https://github.com/lumenworksco/-_CalmWeb/commit/f6ad26be3929382a0c5389829f671870bac9d6d6) | 7h ago |
+| [CalmCampus](https://github.com/lumenworksco/-CalmCampus) | [Web preview: table captions are h2 at card-title size, so a table right…](https://github.com/lumenworksco/-CalmCampus/commit/4e3a09cad564afef699b71192a2a3968779961e6) | 7h ago |
+| [memoize](https://github.com/iPwnds/memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/iPwnds/memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 10h ago |
+| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 2d ago |
+| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 5d ago |
 <!--END_SECTION:shipped-->
 
 <!--START_SECTION:updated-->
