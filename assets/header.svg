@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Florian Braùn — builds by day, ships by night">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#070b1a"/>
+      <stop offset="0.35" stop-color="#0f1a40"/>
+      <stop offset="0.55" stop-color="#2a3f8f"/>
+      <stop offset="0.68" stop-color="#6b4a5a"/>
+      <stop offset="0.82" stop-color="#c2620f"/>
+      <stop offset="1"    stop-color="#f5a524"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="1" stop-color="#1a0f05"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"   stop-color="#ffe29a" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#f5a524" stop-opacity="0.35"/>
+      <stop offset="1"   stop-color="#f5a524" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"   stop-color="#dbe7ff" stop-opacity="0.55"/>
+      <stop offset="1"   stop-color="#dbe7ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .name { font: 700 68px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: -1.5px; }
+      .tag  { font: 500 19px ui-monospace, "SF Mono", Menlo, Consolas, monospace; fill: #ffffff; opacity: 0.85; letter-spacing: 0.5px; }
+      .tag .amber { fill: #ffd27a; }
+      .tag .blue  { fill: #9db9ff; }
+      .star { fill: #ffffff; animation: twinkle 3.2s ease-in-out infinite; }
+      .star:nth-child(2n)  { animation-delay: -1.1s; }
+      .star:nth-child(3n)  { animation-delay: -2.3s; animation-duration: 4.1s; }
+      .star:nth-child(5n)  { animation-delay: -0.6s; animation-duration: 2.6s; }
+      .sun  { animation: breathe 6s ease-in-out infinite; transform-origin: 1010px 118px; }
+      .moon { animation: drift 14s ease-in-out infinite; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes twinkle { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+      @keyframes breathe { 0%,100% { transform: scale(1) } 50% { transform: scale(1.06) } }
+      @keyframes drift   { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+      @keyframes blink   { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#sky)"/>
+
+    <!-- stars (night side) -->
+    <g>
+      <circle class="star" cx="42"  cy="38"  r="1.6"/>
+      <circle class="star" cx="118" cy="92"  r="1.2"/>
+      <circle class="star" cx="171" cy="31"  r="1.8"/>
+      <circle class="star" cx="233" cy="140" r="1.1"/>
+      <circle class="star" cx="286" cy="58"  r="1.5"/>
+      <circle class="star" cx="334" cy="112" r="1.0"/>
+      <circle class="star" cx="389" cy="24"  r="1.4"/>
+      <circle class="star" cx="78"  cy="178" r="1.3"/>
+      <circle class="star" cx="412" cy="162" r="1.0"/>
+      <circle class="star" cx="455" cy="76"  r="1.6"/>
+      <circle class="star" cx="508" cy="130" r="0.9"/>
+      <circle class="star" cx="24"  cy="118" r="1.1"/>
+      <circle class="star" cx="196" cy="196" r="1.0"/>
+      <circle class="star" cx="361" cy="200" r="1.2"/>
+      <circle class="star" cx="540" cy="42"  r="1.3"/>
+    </g>
+
+    <!-- moon -->
+    <g class="moon">
+      <circle cx="150" cy="96" r="70" fill="url(#moonGlow)"/>
+      <circle cx="150" cy="96" r="24" fill="#e8eefc"/>
+      <circle cx="162" cy="88" r="21" fill="#101a3f"/>
+    </g>
+
+    <!-- sun -->
+    <g class="sun">
+      <circle cx="1010" cy="118" r="120" fill="url(#sunGlow)"/>
+      <circle cx="1010" cy="118" r="34" fill="#ffd27a"/>
+    </g>
+
+    <!-- skyline silhouette: Leuven-ish left, generic right -->
+    <path fill="url(#ground)" d="
+      M0,320 L0,262 L40,262 L40,240 L58,240 L58,262 L96,262 L96,222 L110,222 L110,205 L122,205 L122,222 L136,222 L136,262
+      L180,262 L180,248 L214,248 L214,262 L250,262 L250,228 L262,228 L262,190 L270,170 L278,190 L278,228 L290,228 L290,262
+      L330,262 L330,244 L372,244 L372,262 L420,262 L420,236 L450,236 L450,262 L500,262 L500,250 L560,250 L560,262
+      L620,262 L620,232 L640,232 L640,218 L660,218 L660,232 L680,232 L680,262 L740,262 L740,246 L790,246 L790,262
+      L850,262 L850,238 L880,238 L880,262 L940,262 L940,252 L1000,252 L1000,262 L1060,262 L1060,230 L1080,230 L1080,262
+      L1130,262 L1130,246 L1170,246 L1170,262 L1200,262 L1200,320 Z"/>
+
+    <!-- ground haze -->
+    <rect y="262" width="1200" height="58" fill="#000" opacity="0.35"/>
+
+    <!-- text -->
+    <text class="name" x="600" y="152" text-anchor="middle">Florian Braùn</text>
+    <text class="tag" x="600" y="196" text-anchor="middle" xml:space="preserve">
+      <tspan>$ </tspan><tspan class="blue">builds</tspan><tspan> by day  ·  </tspan><tspan class="amber">ships</tspan><tspan> by night</tspan><tspan class="cursor">▌</tspan>
+    </text>
+  </g>
+</svg>
