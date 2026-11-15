@@ -23,7 +23,7 @@
 name:        Florian Braùn
 location:    Howald, LU  ⇄  Leuven, BE
 studies:     Applied CS · AI & Data Engineering · '27
-languages:   [python, java, javascript, c, r]
+languages:   [python, typescript, c++, swift, javascript]
 interests:   [nlp, interpretability, algo trading, iot, film photography, vintage watches, vinyl, japanese]
 certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financial Markets, CS50]
 ```
@@ -33,11 +33,12 @@ certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financ
 <!--START_SECTION:bench-->
 | Project | What it is | Lang |
 |:--|:--|:--|
-| [**CalmCampus**](https://github.com/lumenworksco) | Mental-wellbeing product for students, co-founded with a partner-in-crime | TypeScript |
-| **Velox** | Algorithmic trading system — my own, not a fork | Python |
-| **Primagaz CV** | Gas-bottle detection & tracking with YOLO | Python |
-| **Sentiment attribution** | Why does the classifier say what it says? Notebook + web demo | Python |
-| **HEXA-60** | A cognitive-ability test battery designed from scratch, now in first administration | R |
+| [**Velox**](https://github.com/lumenworksco/-Velox) | Velox (formerly AlphaFlow): terminal-native autonomous equity trading system on Alpaca. 6… | Python |
+| [**LexEuropa**](https://github.com/lumenworksco/-LexEuropa) | Open-model AI legal research for EU law: hybrid retrieval over 81 EU instruments, a LoRA-… | Python |
+| [**CalmCampus**](https://github.com/lumenworksco/-CalmCampus) | Privacy-first wellness companion for university students: on-device stress signals, adapt… | JavaScript |
+| [**CalmWeb**](https://github.com/lumenworksco/-_CalmWeb) | Website, impact report and evidence dossier for CalmCampus, a privacy-first wellness comp… | JavaScript |
+| [**Feather**](https://github.com/lumenworksco/-Feather) | A small, native macOS browser on WebKit: sidebar tabs, tab groups, split view, pinned tab… | Swift |
+| [**Project-Silkworm**](https://github.com/lumenworksco/-Project-Silkworm) | Automated pipeline that generates a growing DPO preference dataset (chosen/rejected pairs… | Python |
 <!--END_SECTION:bench-->
 
 ## 🚢 Recently shipped
@@ -45,11 +46,15 @@ certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financ
 <!--START_SECTION:shipped-->
 | Repo | Last commit | When |
 |:--|:--|:--|
-| *(syncing)* | the nightly workflow writes my latest public commits here | soon |
+| [CalmWeb](https://github.com/lumenworksco/-_CalmWeb) | [quivr preview: headings in order](https://github.com/lumenworksco/-_CalmWeb/commit/f6ad26be3929382a0c5389829f671870bac9d6d6) | 7h ago |
+| [CalmCampus](https://github.com/lumenworksco/-CalmCampus) | [Web preview: table captions are h2 at card-title size, so a table right…](https://github.com/lumenworksco/-CalmCampus/commit/4e3a09cad564afef699b71192a2a3968779961e6) | 8h ago |
+| [memoize](https://github.com/iPwnds/memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/iPwnds/memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 11h ago |
+| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 2d ago |
+| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 5d ago |
 <!--END_SECTION:shipped-->
 
 <!--START_SECTION:updated-->
-<sub>pinned repos, languages and shipped list refresh nightly</sub>
+<sub>pinned repos, languages and shipped list refresh nightly · last run 15 Nov 2026</sub>
 <!--END_SECTION:updated-->
 
 ## 🔗 Find me
