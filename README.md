@@ -7,12 +7,12 @@
     <td width="50%" valign="top">
       <h3>☀️ By day</h3>
       <p><b>Applied Computer Science</b>, specialising in <b>AI &amp; Data Engineering</b>. Started on the theoretical Informatica track, switched to the applied side because I'd rather ship than prove.</p>
-      <p>Interpretability, computer vision, and the maths underneath both.</p>
+      <p>Aiming for applied-scientist / ML-engineer work. Mostly NLP and interpretability.</p>
     </td>
     <td width="50%" valign="top">
       <h3>🌙 By night</h3>
-      <p>Founder of <b>Lumen Studio</b> — the umbrella for everything I've launched since 2023: dropshipping, digital products, apps, and now <b><a href="https://github.com/lumenworksco">CalmCampus</a></b>, built for student mental wellbeing.</p>
-      <p>Registered student-entrepreneur in Belgium. Trading bots, psychometrics, and whatever the table below says I'm pinning this month.</p>
+      <p>Co-founder &amp; CTO of <b><a href="https://github.com/lumenworksco">CalmCampus</a></b> with Hélène — a privacy-first student-wellbeing platform, KICK Challenge finalist, working towards a first university pilot. Everything I build ships under <b>Lumen Studio</b>, the org I started in 2023.</p>
+      <p>Also: algorithmic trading, Japanese-learning tools, and far too much ESP32 soldering.</p>
     </td>
   </tr>
 </table>
@@ -23,9 +23,9 @@
 name:        Florian Braùn
 location:    Howald, LU  ⇄  Leuven, BE
 studies:     Applied CS · AI & Data Engineering · '27
-languages:   [typescript, python, c++, kotlin, rust]
-interests:   [interpretability, algo trading, security testing, film photography, vintage watches]
-certs:       [Bloomberg Market Concepts, Yale Financial Markets, CS50]
+languages:   [python, java, javascript, c, r]
+interests:   [nlp, interpretability, algo trading, iot, film photography, vintage watches, vinyl, japanese]
+certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financial Markets, CS50]
 ```
 
 ## 📌 On the bench
@@ -33,12 +33,11 @@ certs:       [Bloomberg Market Concepts, Yale Financial Markets, CS50]
 <!--START_SECTION:bench-->
 | Project | What it is | Lang |
 |:--|:--|:--|
-| [**-CalmCampus**](https://github.com/lumenworksco/-CalmCampus) | Privacy-first wellness companion for university students: on-device stress signals, adapt… | JavaScript |
-| [**-_Nihongo**](https://github.com/lumenworksco/-_Nihongo) | Offline-first Japanese (JLPT N5) learning PWA with FSRS spaced repetition, streaks, mock … | TypeScript |
-| [**-Tokn**](https://github.com/lumenworksco/-Tokn) | Claude.ai session and weekly usage in your macOS menu bar | Swift |
-| [**-Velox**](https://github.com/lumenworksco/-Velox) | Velox (formerly AlphaFlow): terminal-native autonomous equity trading system on Alpaca. 6… | Python |
-| [**MarketLens**](https://github.com/mabushi-lab/MarketLens) | — | MATLAB |
-| [**residual-stream-contamination-probing**](https://github.com/mabushi-lab/residual-stream-contamination-probing) | Detecting benchmark contamination by probing a language model's residual stream, with the… | Python |
+| [**CalmCampus**](https://github.com/lumenworksco) | Mental-wellbeing product for students, co-founded with a partner-in-crime | TypeScript |
+| **Velox** | Algorithmic trading system — my own, not a fork | Python |
+| **Primagaz CV** | Gas-bottle detection & tracking with YOLO | Python |
+| **Sentiment attribution** | Why does the classifier say what it says? Notebook + web demo | Python |
+| **HEXA-60** | A cognitive-ability test battery designed from scratch, now in first administration | R |
 <!--END_SECTION:bench-->
 
 ## 🚢 Recently shipped
@@ -46,15 +45,11 @@ certs:       [Bloomberg Market Concepts, Yale Financial Markets, CS50]
 <!--START_SECTION:shipped-->
 | Repo | Last commit | When |
 |:--|:--|:--|
-| [iPwnds](https://github.com/iPwnds/iPwnds) | Configuration files for customizing and managing my GitHub profile. | just now |
-| [memoize](https://github.com/iPwnds/memoize) | Flashcard app for mastering algorithms and data structures | 10h ago |
-| [Advanced-AI](https://github.com/iPwnds/Advanced-AI) | — | 5mo ago |
-| [FocusTimer](https://github.com/iPwnds/FocusTimer) | A beautiful, minimal Pomodoro timer for the macOS menu bar. Free & open source. | 5mo ago |
-| [FinSight](https://github.com/iPwnds/FinSight) | — | 6mo ago |
+| *(syncing)* | the nightly workflow writes my latest public commits here | soon |
 <!--END_SECTION:shipped-->
 
 <!--START_SECTION:updated-->
-<sub>pinned repos, languages and shipped list refresh nightly · last run 15 Nov 2026</sub>
+<sub>pinned repos, languages and shipped list refresh nightly</sub>
 <!--END_SECTION:updated-->
 
 ## 🔗 Find me
