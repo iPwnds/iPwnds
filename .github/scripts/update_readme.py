@@ -30,6 +30,9 @@ from collections import Counter
 from datetime import datetime, timezone
 
 USER = os.environ.get("GH_USERNAME", "ipwnds")
+ORGS = [o.strip() for o in os.environ.get("GH_ORGS", "lumenworksco").split(",") if o.strip()]
+EXCLUDE = {f"{USER}/{USER}".lower()}  # the profile repo itself (bot commits live there)
+MAX_REPOS_SCANNED = 60
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 README = os.environ.get("README_PATH", "README.md")
 API = "https://api.github.com"
@@ -84,6 +87,11 @@ def rel(ts: str) -> str:
     return f"{h}h ago" if h else "just now"
 
 
+def display(name: str) -> str:
+    """Repo name for humans: strip leading sort-prefix punctuation like `-` or `-_`."""
+    return name.lstrip("-_") or name
+
+
 def cell(s: str | None, limit: int = 90) -> str:
     s = (s or "—").strip().replace("|", "\\|").replace("\n", " ")
     return s if len(s) <= limit else s[: limit - 1] + "…"
@@ -97,13 +105,23 @@ def replace_section(text: str, name: str, body: str) -> str:
     return pat.sub(lambda m: f"{m.group(1)}\n{body}\n{m.group(3)}", text)
 
 
-def owned_repos() -> list[dict]:
-    try:
-        repos = get(f"{API}/users/{USER}/repos?per_page=100&type=owner&sort=pushed")
-    except Exception as e:  # noqa: BLE001
-        print(f"repos fetch failed: {e}", file=sys.stderr)
-        return []
-    return [r for r in repos if not r.get("fork") and not r.get("archived")]
+def all_repos() -> list[dict]:
+    """Public, non-fork, non-archived repos owned by the user or by ORGS."""
+    sources = [f"{API}/users/{USER}/repos?per_page=100&type=owner&sort=pushed"]
+    sources += [f"{API}/orgs/{o}/repos?per_page=100&type=public&sort=pushed" for o in ORGS]
+    repos: dict[str, dict] = {}
+    for url in sources:
+        try:
+            for r in get(url):
+                if r.get("fork") or r.get("archived") or r.get("private"):
+                    continue
+                if r["full_name"].lower() in EXCLUDE:
+                    continue
+                repos[r["full_name"].lower()] = r
+        except Exception as e:  # noqa: BLE001
+            print(f"repos fetch failed for {url}: {e}", file=sys.stderr)
+    out = sorted(repos.values(), key=lambda r: r.get("pushed_at", ""), reverse=True)
+    return out[:MAX_REPOS_SCANNED]
 
 
 # --------------------------------------------------------------------------- #
@@ -134,7 +152,7 @@ def bench_rows(repos: list[dict]) -> list[str]:
     except Exception as e:  # noqa: BLE001
         print(f"pinned fetch failed: {e}", file=sys.stderr)
 
-    if not nodes:  # fallback: top non-fork repos by stars
+    if not nodes:  # fallback: top repos by stars
         top = sorted(repos, key=lambda r: (r.get("stargazers_count", 0), r.get("pushed_at", "")), reverse=True)
         nodes = [{
             "name": r["name"], "url": r["html_url"], "description": r.get("description"),
@@ -147,38 +165,31 @@ def bench_rows(repos: list[dict]) -> list[str]:
         lang = (n.get("primaryLanguage") or {}).get("name") or "—"
         stars = n.get("stargazerCount") or 0
         star_txt = f" ⭐ {stars}" if stars else ""
-        rows.append(f"| [**{n['name']}**]({n['url']}) | {cell(n.get('description'))} | {lang}{star_txt} |")
+        rows.append(f"| [**{display(n['name'])}**]({n['url']}) | {cell(n.get('description'))} | {lang}{star_txt} |")
     return rows
 
 
 def shipped_rows(repos: list[dict]) -> list[str]:
-    seen: dict[str, str] = {}
-    try:
-        events = get(f"{API}/users/{USER}/events/public?per_page=100")
-    except Exception as e:  # noqa: BLE001
-        print(f"events fetch failed: {e}", file=sys.stderr)
-        events = []
-
-    for ev in events:
-        if ev.get("type") != "PushEvent":
+    """Latest commit on the default branch of each repo, newest first."""
+    found: list[tuple[str, str]] = []
+    for r in repos[:MAX_SHIPPED * 4]:  # already sorted by pushed_at; no need to scan everything
+        try:
+            commits = get(f"{API}/repos/{r['full_name']}/commits?per_page=1")
+        except Exception as e:  # noqa: BLE001
+            print(f"commits fetch failed for {r['full_name']}: {e}", file=sys.stderr)
             continue
-        repo = ev["repo"]["name"]
-        commits = ev["payload"].get("commits") or []
-        if repo in seen or not commits:
+        if not commits:
             continue
-        msg = commits[-1]["message"].splitlines()[0]
-        short = repo.split("/", 1)[1]
-        seen[repo] = f"| [{short}](https://github.com/{repo}) | {cell(msg, 72)} | {rel(ev['created_at'])} |"
-        if len(seen) >= MAX_SHIPPED:
-            break
-
-    if seen:
-        return list(seen.values())
-    # fallback: most recently pushed repos
-    return [
-        f"| [{r['name']}]({r['html_url']}) | {cell(r.get('description'))} | {rel(r['pushed_at'])} |"
-        for r in repos[:MAX_SHIPPED]
-    ]
+        c = commits[0]
+        login = ((c.get("author") or {}).get("login") or "").lower()
+        if login.endswith("[bot]"):
+            continue
+        date = c["commit"]["committer"]["date"]
+        msg = c["commit"]["message"].splitlines()[0]
+        row = f"| [{display(r['name'])}]({r['html_url']}) | [{cell(msg, 72)}]({c['html_url']}) | {rel(date)} |"
+        found.append((date, row))
+    found.sort(reverse=True)
+    return [row for _, row in found[:MAX_SHIPPED]]
 
 
 def language_line(repos: list[dict]) -> str | None:
@@ -207,7 +218,7 @@ def replace_yaml_key(text: str, key: str, line: str) -> str:
 
 # --------------------------------------------------------------------------- #
 def main() -> int:
-    repos = owned_repos()
+    repos = all_repos()
 
     bench = bench_rows(repos) or ["| — | pin a few repos on GitHub and this fills itself in | — |"]
     shipped = shipped_rows(repos) or ["| — | nothing public lately; the good stuff is still cooking | — |"]
