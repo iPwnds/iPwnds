@@ -43,15 +43,15 @@ certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financ
 <!--START_SECTION:shipped-->
 | Repo | Last commit | When |
 |:--|:--|:--|
-| [CalmWeb](https://github.com/lumenworksco/-_CalmWeb) | [quivr preview: headings in order](https://github.com/lumenworksco/-_CalmWeb/commit/f6ad26be3929382a0c5389829f671870bac9d6d6) | 20h ago |
-| [CalmCampus](https://github.com/lumenworksco/-CalmCampus) | [Web preview: table captions are h2 at card-title size, so a table right…](https://github.com/lumenworksco/-CalmCampus/commit/4e3a09cad564afef699b71192a2a3968779961e6) | 21h ago |
-| [memoize](https://github.com/lumenworksco/-_memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/lumenworksco/-_memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 1d ago |
-| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 3d ago |
-| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 5d ago |
+| [CalmWeb](https://github.com/lumenworksco/-_CalmWeb) | [quivr preview: headings in order](https://github.com/lumenworksco/-_CalmWeb/commit/f6ad26be3929382a0c5389829f671870bac9d6d6) | 2d ago |
+| [CalmCampus](https://github.com/lumenworksco/-CalmCampus) | [Web preview: table captions are h2 at card-title size, so a table right…](https://github.com/lumenworksco/-CalmCampus/commit/4e3a09cad564afef699b71192a2a3968779961e6) | 2d ago |
+| [memoize](https://github.com/lumenworksco/-_memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/lumenworksco/-_memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 3d ago |
+| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 5d ago |
+| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 7d ago |
 <!--END_SECTION:shipped-->
 
 <!--START_SECTION:updated-->
-<sub>pinned repos, languages and shipped list refresh nightly · last run 16 Nov 2026</sub>
+<sub>pinned repos, languages and shipped list refresh nightly · last run 18 Nov 2026</sub>
 <!--END_SECTION:updated-->
 
 ## 🔗 Find me
