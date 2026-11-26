@@ -20,7 +20,7 @@ Also: algorithmic trading, Japanese-learning tools, and far too much ESP32 solde
 name:        Florian Braùn
 location:    Howald, LU  ⇄  Leuven, BE
 studies:     Applied CS · AI & Data Engineering · '27
-languages:   [python, typescript, c++, swift, javascript]
+languages:   [python, typescript, c++, swift, kotlin]
 interests:   [nlp, interpretability, algo trading, iot, film photography, vintage watches, vinyl, japanese]
 certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financial Markets, CS50]
 ```
@@ -32,8 +32,8 @@ certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financ
 |:--|:--|:--|
 | [**Velox**](https://github.com/lumenworksco/-Velox) | Velox (formerly AlphaFlow): terminal-native autonomous equity trading system on Alpaca. 6… | Python |
 | [**LexEuropa**](https://github.com/lumenworksco/-LexEuropa) | Open-model AI legal research for EU law: hybrid retrieval over 81 EU instruments, a LoRA-… | Python |
-| [**CalmCampus**](https://github.com/lumenworksco/-CalmCampus) | Privacy-first wellness companion for university students: on-device stress signals, adapt… | JavaScript |
-| [**CalmWeb**](https://github.com/lumenworksco/-_CalmWeb) | Website, impact report and evidence dossier for CalmCampus, a privacy-first wellness comp… | JavaScript |
+| [**CalmCampus**](https://github.com/CalmCampus-FV/CalmCampus) | Privacy-first wellness companion for university students: on-device stress signals, adapt… | JavaScript |
+| [**CalmWeb**](https://github.com/CalmCampus-FV/CalmWeb) | Website, impact report and evidence dossier for CalmCampus, a privacy-first wellness comp… | JavaScript |
 | [**Feather**](https://github.com/lumenworksco/-Feather) | A small, native macOS browser on WebKit: sidebar tabs, tab groups, split view, pinned tab… | Swift |
 | [**Project-Silkworm**](https://github.com/lumenworksco/-Project-Silkworm) | Automated pipeline that generates a growing DPO preference dataset (chosen/rejected pairs… | Python |
 <!--END_SECTION:bench-->
@@ -43,15 +43,15 @@ certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financ
 <!--START_SECTION:shipped-->
 | Repo | Last commit | When |
 |:--|:--|:--|
-| [CalmWeb](https://github.com/lumenworksco/-_CalmWeb) | [Quivr demo: desktop stage, richer native UI, and full disclaimer (#19)](https://github.com/lumenworksco/-_CalmWeb/commit/5f3aa2d7ccde20283fd9b1d30a2477fe40aaea7a) | 1d ago |
-| [CalmCampus](https://github.com/lumenworksco/-CalmCampus) | [Merge pull request #4 from lumenworksco/add-claude-github-actions-17954…](https://github.com/lumenworksco/-CalmCampus/commit/1ee4f2bfe7bd71747cbbcbaaaafa414b4a526998) | 1d ago |
-| [memoize](https://github.com/lumenworksco/-_memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/lumenworksco/-_memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 10d ago |
-| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 12d ago |
-| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 14d ago |
+| [memoize](https://github.com/lumenworksco/-_memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/lumenworksco/-_memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 11d ago |
+| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 13d ago |
+| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 15d ago |
+| [Lumen-Studio](https://github.com/lumenworksco/_Lumen-Studio) | [Add LexEuropa: header link, hero pill, featured project card, project p…](https://github.com/lumenworksco/_Lumen-Studio/commit/bf0bece3abce3b6832f26bc990d57f01079e8336) | 15d ago |
+| [Feather](https://github.com/lumenworksco/-Feather) | [Changelog: 0.1.9 is released](https://github.com/lumenworksco/-Feather/commit/56c81d49149a7ec68a60208d34dd402df77fcfe9) | 22d ago |
 <!--END_SECTION:shipped-->
 
 <!--START_SECTION:updated-->
-<sub>pinned repos, languages and shipped list refresh nightly · last run 25 Nov 2026</sub>
+<sub>pinned repos, languages and shipped list refresh nightly · last run 26 Nov 2026</sub>
 <!--END_SECTION:updated-->
 
 ## 🔗 Find me
