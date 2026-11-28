@@ -43,15 +43,15 @@ certs:       [DataCamp, Korea University, Bloomberg Market Concepts, Yale Financ
 <!--START_SECTION:shipped-->
 | Repo | Last commit | When |
 |:--|:--|:--|
-| [memoize](https://github.com/lumenworksco/-_memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/lumenworksco/-_memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 12d ago |
-| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 14d ago |
-| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 16d ago |
-| [Lumen-Studio](https://github.com/lumenworksco/_Lumen-Studio) | [Add LexEuropa: header link, hero pill, featured project card, project p…](https://github.com/lumenworksco/_Lumen-Studio/commit/bf0bece3abce3b6832f26bc990d57f01079e8336) | 16d ago |
-| [Feather](https://github.com/lumenworksco/-Feather) | [Changelog: 0.1.9 is released](https://github.com/lumenworksco/-Feather/commit/56c81d49149a7ec68a60208d34dd402df77fcfe9) | 23d ago |
+| [memoize](https://github.com/lumenworksco/-_memoize) | [Update README for the 18.01, 18.335J, 24.241, 6.042J and 6.001 tracks](https://github.com/lumenworksco/-_memoize/commit/8c8127b6133a6c2248f15b95fb964422d893912a) | 13d ago |
+| [Tokn](https://github.com/lumenworksco/-Tokn) | [Add Safari cookie path to setup hint; refresh docs for multi-account](https://github.com/lumenworksco/-Tokn/commit/bf892e57a4e296b45fa25d2bd9788fe2bb81c9ed) | 15d ago |
+| [LexEuropa](https://github.com/lumenworksco/-LexEuropa) | [Recorded-answers mode for the static demo, gallery recording script and…](https://github.com/lumenworksco/-LexEuropa/commit/ec4c798d79f22da1ae2d1029f66a08ca9e3d3f81) | 17d ago |
+| [Lumen-Studio](https://github.com/lumenworksco/_Lumen-Studio) | [Add LexEuropa: header link, hero pill, featured project card, project p…](https://github.com/lumenworksco/_Lumen-Studio/commit/bf0bece3abce3b6832f26bc990d57f01079e8336) | 17d ago |
+| [Feather](https://github.com/lumenworksco/-Feather) | [Changelog: 0.1.9 is released](https://github.com/lumenworksco/-Feather/commit/56c81d49149a7ec68a60208d34dd402df77fcfe9) | 24d ago |
 <!--END_SECTION:shipped-->
 
 <!--START_SECTION:updated-->
-<sub>pinned repos, languages and shipped list refresh nightly · last run 27 Nov 2026</sub>
+<sub>pinned repos, languages and shipped list refresh nightly · last run 28 Nov 2026</sub>
 <!--END_SECTION:updated-->
 
 ## 🔗 Find me
